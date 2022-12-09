@@ -6,19 +6,19 @@ let num=13
 let count=0;
 for(let i=1;i<=num;i++)
 {
-     if(num%j==0)
+     if(num%i==0)
     {
-      count++
+      count++;
     }
+}
 
-if(count==5)
+if(count==2)
  {
-   console.log("Prime Number")
+   console.log("Prime Number");
 }
   else 
 {
-  console.log("Not Prime")
+  console.log("Not Prime");
 }
 
 
-}
