@@ -1,24 +1,20 @@
 //   prime num check program
 
 
-let num=13
+let num = 7;
 
 let count=0;
-for(let i=1;i<=num;i++)
+
+for (let i=1; i<=num; i++)
 {
-     if(num%j==0)
-    {
-      count++
-    }
-
-if(count==5)
- {
-   console.log("Prime Number")
-}
-  else 
+if(num%i==0)
 {
-  console.log("Not Prime")
+count++
 }
-
-
+}
+if(factor==2){
+ console.log("it is a prime")
+}
+else{
+console.log("it is not a prime")
 }
